@@ -38,7 +38,7 @@ public class ListViewDelDemoActivity extends AppCompatActivity {
                         Toast.makeText(ListViewDelDemoActivity.this, "position:" + position, Toast.LENGTH_SHORT).show();
                     }
                 });
-Toast.makeText(getApplicationContext(),"dd",Toast.LENGTH_LONG).show();
+
 
                 holder.setOnClickListener(R.id.btnDelete, new View.OnClickListener() {
                     @Override
